@@ -82,4 +82,4 @@ class ActorNetwork(object):
         self.sess.run(self.update_target_network_params)
 
     def get_num_trainable_vars(self):
-        return self.
+        return self.num_trainable_vars
